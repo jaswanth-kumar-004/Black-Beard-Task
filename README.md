@@ -12,3 +12,10 @@ Steps
 
 
 Regarding the DeepSleepNet Model the Python version used is 3.5.4 but the Python I'm using in my PC is 3.9 and so the Tensorflow was not working properly. Unfortunately, in the given time constraint and due to exams I was not able to do the final part of the task. 
+
+But here is the general procedure :
+- Divide the data into 60-20-20 split up
+- 60 - Training Set
+- 20 - Cross Validation Set
+- 20 - Test set
+- F1 score of the maximum sleep mode is considered to be the predicted one
